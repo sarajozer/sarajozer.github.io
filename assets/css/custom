@@ -1,0 +1,199 @@
+/* ==========================================================================
+   CUSTOM THEME: WARM CREAM, DUSTY ROSE, & SLATE
+   ========================================================================== */
+
+/* 1. IMPORT PREMIUM FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* 2. DEFINE CUSTOM COLOR VARIABLES */
+$warm-cream:     #fbf9f6; /* Soft, warm background (replaces harsh white) */
+$slate-dark:     #2c3e46; /* Deep slate for headings, navigation, and primary text */
+$slate-muted:    #5a6b73; /* Muted slate for secondary text and borders */
+$dusty-rose:     #b87d7b; /* Elegant rose for links, accents, and buttons */
+$dusty-rose-dim: #a36866; /* Darker rose for link hover states */
+$white-pure:     #ffffff; /* Pure white used sparingly for card backgrounds */
+
+/* 3. GLOBAL BASE STYLES */
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Roboto", sans-serif !important;
+  background-color: $warm-cream !important;
+  color: $slate-dark !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Hierarchy */
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: 'Fraunces', Georgia, serif !important;
+  color: $slate-dark !important;
+  font-weight: 600;
+}
+
+/* Global Link Styling */
+a {
+  color: $dusty-rose;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: $dusty-rose-dim;
+    text-decoration: underline;
+  }
+}
+
+/* 4. NAVIGATION BAR (MASTHEAD) */
+.masthead {
+  background-color: rgba(251, 249, 246, 0.85) !important; /* Semi-transparent warm cream */
+  backdrop-filter: blur(12px); /* Modern frosted-glass effect */
+  border-bottom: 1px solid rgba(44, 62, 70, 0.08) !important;
+}
+
+.site-title {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: $slate-dark !important;
+  
+  &:hover {
+    color: $dusty-rose !important;
+    text-decoration: none !important;
+  }
+}
+
+.nav__links {
+  a {
+    color: $slate-dark !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+    
+    &:hover {
+      color: $dusty-rose !important;
+      text-decoration: none;
+    }
+  }
+  
+  /* Style for the active/current page link */
+  .active {
+    color: $dusty-rose !important;
+    font-weight: 600;
+  }
+}
+
+/* 5. SIDEBAR (AUTHOR PROFILE) */
+.sidebar {
+  background: $white-pure;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(44, 62, 70, 0.04); /* Soft, un-clunky shadow */
+  border: 1px solid rgba(44, 62, 70, 0.05);
+}
+
+/* Transform Profile Photo into a Sleek Circle with a Subtle Border */
+.author__avatar img {
+  border-radius: 50% !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 3px solid $warm-cream;
+  box-shadow: 0 0 0 1px rgba(44, 62, 70, 0.15); /* Clean outline ring */
+}
+
+.author__name {
+  font-family: 'Fraunces', Georgia, serif !important;
+  font-size: 1.4rem !important;
+  color: $slate-dark !important;
+  margin-top: 15px;
+}
+
+.author__bio {
+  color: $slate-muted !important;
+  font-size: 0.9rem;
+}
+
+.author__urls-wrapper {
+  button {
+    background-color: $dusty-rose !important;
+    border-color: $dusty-rose !important;
+    
+    &:hover {
+      background-color: $dusty-rose-dim !important;
+    }
+  }
+  
+  a {
+    color: $slate-dark !important;
+    font-size: 0.85rem;
+    
+    &:hover {
+      color: $dusty-rose !important;
+      text-decoration: none;
+    }
+    
+    svg {
+      fill: $slate-muted !important; /* Colors the social media icons to match */
+    }
+    
+    &:hover svg {
+      fill: $dusty-rose !important;
+    }
+  }
+}
+
+/* 6. MAIN CONTENT AREA */
+.page__title {
+  font-size: 2.5rem !important;
+  border-bottom: 2px solid rgba(184, 125, 123, 0.2) !important; /* Dusty rose accent underline */
+  padding-bottom: 0.5em;
+}
+
+.page__content {
+  p, li {
+    line-height: 1.75;
+    color: rgba(44, 62, 70, 0.9); /* Easy reading opacity */
+  }
+  
+  /* Styled horizontal rules separating sections */
+  hr {
+    border-top: 1px dashed rgba(90, 107, 115, 0.2) !important;
+    margin: 2em 0;
+  }
+}
+
+/* 7. ARCHIVE & LIST PAGES (Publications, Talks, Teaching) */
+.list__item {
+  .archive__item-title {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    
+    a {
+      color: $slate-dark !important;
+      
+      &:hover {
+        color: $dusty-rose !important;
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .archive__item-excerpt {
+    color: $slate-muted !important;
+    font-size: 0.925rem !important;
+    line-height: 1.5;
+  }
+}
+
+/* 8. FOOTER STYLING */
+.page__footer {
+  background-color: $warm-cream !important;
+  border-top: 1px solid rgba(44, 62, 70, 0.08) !important;
+  color: $slate-muted !important;
+  font-size: 0.85rem;
+  
+  a {
+    color: $slate-dark;
+    
+    &:hover {
+      color: $dusty-rose;
+    }
+  }
+}
