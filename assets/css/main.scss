@@ -46,7 +46,9 @@
   display: none !important;
 }
 
-/* Square avatar */
 .author__avatar img {
-  border-radius: 0 !important;
+  border-radius: 0px !important;
+  width: 150px !important;  /* default is around 110px */
+  height: 150px !important;
+  object-fit: cover;
 }
