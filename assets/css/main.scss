@@ -8,6 +8,12 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
+/* Give the sidebar profile picture smooth, rounded corners */
+.author__avatar img {
+  border-radius: 12px; /* Increase or decrease this number to adjust the roundness */
+  object-fit: cover;
+}
+
 @import
     "vendor/breakpoint/breakpoint",
 
