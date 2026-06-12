@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "UC Berkeley Political Science PhD Candidate"
 author_profile: true
 redirect_from: 
   - /about/
