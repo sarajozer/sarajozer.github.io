@@ -1,46 +1,80 @@
----
----
+/* Warm parchment background */
+body {
+  background-color: #fdfbf9 !important;
+  font-family: "Georgia", serif;
+}
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+/* Header */
+.masthead {
+  background-color: #f7f4f1 !important;
+  border-bottom: 1px solid #e2dbd4 !important;
+}
 
-@import
-    "vendor/breakpoint/breakpoint",
+.masthead__inner-wrap {
+  background-color: #f7f4f1 !important;
+}
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+.site-title {
+  color: #3d3530 !important;
+}
 
-    "include/mixins",
-    "vendor/susy/susy",
+.greedy-nav a {
+  color: #3d3530 !important;
+}
 
-    "layout/reset",
-    "layout/base",
+.greedy-nav a:hover {
+  color: #8b5e52 !important;
+}
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+/* Sidebar */
+.sidebar.sticky {
+  background-color: #f7f4f1;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e2dbd4;
+}
 
-    "layout/forms",
+.author__name {
+  color: #3d3530 !important;
+}
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+.author__bio {
+  color: #7a6e67 !important;
+}
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+.author__urls a {
+  color: #8b5e52 !important;
+}
+
+.author__urls a:hover {
+  color: #3d3530 !important;
+}
+
+/* Main content area */
+.initial-content {
+  background-color: #fdfbf9;
+}
+
+/* Links */
+a {
+  color: #8b5e52 !important;
+}
+
+a:hover {
+  color: #3d3530 !important;
+}
+
+/* Page title and headings */
+.page__title {
+  color: #3d3530 !important;
+  font-family: "Georgia", serif;
+  font-weight: normal;
+}
+
+h2, h3 {
+  color: #8b5e52;
+  font-weight: normal;
+}
 
 .page__footer {
   display: none !important;
