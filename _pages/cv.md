@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Download my CV [here](/files/CV_June_26.pdf).
+Download my CV [here](/files/Sara Jozer CV 6.26.pdf).
