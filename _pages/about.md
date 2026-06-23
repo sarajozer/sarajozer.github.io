@@ -10,6 +10,6 @@ Welcome! I am a PhD Candidate at the University of California, Berkeley studying
 
 I am the recipient of the UC Berkeley Political Science Department's Peter H. Odegard Award for outstanding performance and scholarly promise. My research has been funded by the Center for American Women and Politics at Rutgers University, as well as the UC Berkeley Center for Race and Gender, UC Berkeley Center for Right Wing Studies, and UC Berkeley Citrin Center for Public Opinion.
 
-I hold a BS in Social Policy from Northwestern University, an MA in Political Science from the University of Chicago, and a graduate certificate in Gender, Leadership, and Public Policy from the University of Massachusetts Boston. I worked in Democratic fundraising for several years before graduate school.
+I am a very proud alum of Northwestern University (Go 'Cats!), where I received my BS in Social Policy. I also hold an MA in Political Science from the University of Chicago, and a graduate certificate in Gender, Leadership, and Public Policy from the University of Massachusetts Boston. I worked in Democratic fundraising for several years before graduate school.
 
 I live in Oakland, CA with my wife Molly and our two dogs and two cats. When I'm not at my desk, you might find me at the yoga studio or performing in a local <a href="https://www.nytimes.com/2023/08/20/style/grown-up-theater-kids.html"> musical theater production.</a> 
