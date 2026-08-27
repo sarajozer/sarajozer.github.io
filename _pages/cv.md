@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Download my CV [here](/files/June_26_CV.pdf).
+Download my CV [here](/files/CV_Aug_26.pdf).
